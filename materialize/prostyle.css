@@ -1,0 +1,436 @@
+
+
+
+.navbar{
+	background-color: white;
+	width: 100%;
+	height: 80px;
+	padding-left: 80px;
+	padding-right: 80px;
+	border-bottom: 3px solid #1891D2;  
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+	z-index: 999;
+
+}
+
+.fixed{
+	position:fixed;
+	top: 0;
+}
+
+.navbar-placeholder{
+	margin: 0 0 0 0;
+}
+
+.logosz{
+	height: 50px;
+	margin-top: 15px;
+}
+.logosz:hover{
+	transform: translateX(1px);
+}
+
+.navcontent{
+	padding-left: 50px;
+
+}
+.navdescription{
+	float: left;
+	padding-left: 15px;
+	padding-right: 15px;
+	color:grey;
+	font-size: 16px;
+	font-family: "Forum" ;
+	font-weight: bold;
+}
+
+.navdescription:hover{
+	color: white;
+	font-weight: bolder;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+	background-color: #F3802E;
+	border-radius: 5%;
+
+
+}
+.navdescription:active{
+	transform: translateX(2px);
+	
+	
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 12px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-family: "Forum";
+    font-weight: bold;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-top: 12px;
+    width: 280px;
+}
+.btnhvr{
+	background-color: #F3802E;
+	color: white;
+	border: 2px solid #F3802E;
+	border-radius: 2%;
+}
+.btnhvr:hover{
+	background-color: #1891D2;
+	color: white;
+	border: 2px solid #1891D2;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+	border-radius: 2%;
+}
+.btnhvr:active{
+	transform: translateY(4px);
+}
+
+.clr{
+	color: #03618C;
+}
+.imgs{
+	width: 100%;
+	height: 300px;
+}
+
+.dec{
+		background-color: #fff8e1;
+		width: 100%;
+		height: 370px;
+		position: relative;
+}
+video{
+
+	width: 100%;
+	height: 370px;
+	position: relative;
+}
+
+.dim{
+	margin-top: 0px;
+
+}
+
+.siz{
+	height: 45px;
+}
+.abtus{
+	font-family: arial;
+	text-transform: uppercase;
+	font-size: 36px;
+	text-align: center;
+	padding: 10px 65px 0px 54px;
+	color: black;
+	font-weight: 800;
+	text-decoration: underline;
+	text-decoration-color: #F3802E ;
+	text-decoration-spacing: 5px;
+
+}
+
+.msg{
+	
+	padding: 10px ;
+	
+	padding: 10px 95px 0px 55px;
+	
+	color:#616161;
+	font-size: 16px;
+	font-family: "Forum" ;
+	font-weight: bold;
+	text-align: justify;
+    text-justify: inter-word;
+    position: relative;
+
+}
+
+.msg:hover{
+
+	color: black;
+}
+
+.mycontainer{
+	padding: 45px 80px;
+}
+
+.fdim{
+	text-align: center;
+	font-family: arial;
+	text-transform: uppercase;
+	font-size: 36px;
+	
+	
+	color: black;
+	font-weight: bold;
+	
+	
+}
+.mdim{
+	
+	
+	text-align: center;
+		
+	color:#616161;
+	font-size: 17px;
+	font-family: "Forum" ;
+	font-weight: bold;
+	
+    position: relative;
+
+}
+
+.ficon{
+	background-color: #E34B11;
+	border-radius: 50%;
+	height: 90px;
+	width: 90px;
+	-webkit-align-self: center; 
+    align-self: center;
+}
+
+.fidim{
+	text-align: center;
+	padding: 0px 30px;
+} 
+
+.fidim h6{
+	
+	font-weight: bolder;
+	font-size: 18px;
+	}
+.fidim p{
+	font-weight: normal;
+	color: grey;
+	font-size: 16px;
+	padding: 0px 20px;
+}
+
+.mycontainer1{
+	padding: 45px 60px;
+}
+
+
+.bendim{
+
+	text-align: right;
+}
+
+.bendim h6{
+	font-family: arial;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.bendim p{
+	font-size: 16px;
+	font-family: "Forum";
+	color: grey;
+	text-decoration: justify;
+	font-weight: bold;
+}
+
+.fitdim{
+	text-align: left;
+
+}
+
+.fitdim h6{
+	font-family: arial;
+	font-weight: bold;
+	font-size: 18px;
+}
+.fitdim p{
+	font-size: 16px;
+	font-family: "Forum";
+	color: grey;
+	text-decoration: justify;
+	font-weight: bold;
+}
+
+.bicon{
+	background-color: #E34B11;
+	height: 90px;
+	width: 90px;
+	-webkit-align-self: center; 
+    align-self: center;
+    border-radius: 10px;
+
+}
+
+.crdhvr:hover{
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.bkft {
+	text-align: center;
+	
+	
+}
+
+.button1 {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 12px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-family: "Lato";
+    font-weight: bold;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-top: 12px;
+    width: 580px;
+}
+.btnhvr1{
+	background-color: #F3802E;
+	color: white;
+	border: 2px solid #F3802E;
+	border-radius: 2%;
+}
+.btnhvr1:hover{
+	background-color: #1891D2;
+	color: white;
+	border: 2px solid #1891D2;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+	border-radius: 2%;
+}
+.btnhvr1:active{
+	transform: translateY(4px);
+}
+
+
+.mycontainer2{
+	padding: 45px 150px;
+}
+
+.card-title {
+
+	font-family: arial;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: justify;
+	
+	
+	bottom: 0;
+	left: 0;
+	
+}
+
+.card-title i{
+	margin-left: 5px;
+}
+
+.card .card-reveal .crdtl{
+	display: block;
+	cursor: pointer;
+}
+
+.butn{
+	padding-top: 10px;
+	float:left;
+	width: 80px;
+}
+.butn:hover{
+	color: black;
+	font-size: 16px;
+}
+
+.crdmsg{
+	text-align: justify;
+	padding: 7px;
+}
+
+.bg{
+	background: url(backprocess11.jpg) center center;
+	background-size: cover;
+	
+	position: relative;
+    height: 500px;
+  background-repeat: no-repeat;
+  
+  
+  background-position: top center;
+  background-attachment: fixed;
+  
+}
+
+.wdim1{
+	text-align: center;
+	font-family: arial;
+	text-transform: uppercase;
+	font-size: 36px;
+	
+	
+	color: #f5f5f5;
+	font-weight: bold;
+	
+	
+}
+.wmdim1{
+	
+	
+	text-align: center;
+		
+	color:#e0e0e0;
+	font-size: 17px;
+	font-family: "Forum" ;
+	font-weight: bold;
+	
+    position: relative;
+
+}
+
+.wkicon{
+	background-color: transparent;
+	border-radius: 3px;
+	border: 5px solid #f5f5f5;
+	height: 150px;
+	width: 150px;
+	-webkit-align-self: center; 
+    align-self: center;
+}
+
+.wkdim{
+	text-align: center;
+	padding: 0px 30px;
+} 
+
+.wkdim h6{
+	
+	
+	font-size: 13.9px;
+	color: #f5f5f5;
+	}
+.wkdim p{
+	font-weight: normal;
+	color: #e0e0e0;
+	font-size: 14px;
+	padding: 0px 40px;
+	text-align: center;
+}
+
+.wkprs{
+	    
+    position: absolute;
+    color: white;
+    top: 53.5%;
+    font-size: 18px;
+    font-weight: bolder;
+    text-align: left;
+    font-style: normal;
+    display: inline-block;
+    text-decoration: inherit;
+}
